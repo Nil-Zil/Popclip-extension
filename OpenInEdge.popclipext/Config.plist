@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>icon.png</string>
+			<key>Requirements</key>
+			<array>
+				<string>httpurls</string>
+			</array>
+			<key>Shell Script File</key>
+			<string>open-in-edge.sh</string>
+			<key>Title</key>
+			<string>Open in Microsoft Edge</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Check Installed</key>
+			<true/>
+			<key>Bundle Identifier</key>
+			<string>com.microsoft.edgemac</string>
+			<key>Link</key>
+			<string>https://www.microsoft.com/en-us/edge/</string>
+			<key>Name</key>
+			<string>Microsoft Edge</string>
+		</dict>
+	</array>
+	<key>Blocked Apps</key>
+	<array>
+		<string>com.microsoft.edgemac</string>
+	</array>
+	<key>Extension Description</key>
+	<string>Open the link in Microsoft Edge.</string>
+	<key>Extension Identifier</key>
+	<string>com.nil.extension.open-in-edge</string>
+	<key>Extension Name</key>
+	<string>Open in Microsoft Edge</string>
+</dict>
+</plist>
