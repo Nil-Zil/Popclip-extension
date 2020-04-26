@@ -14,7 +14,7 @@
 			<key>Shell Script File</key>
 			<string>open-in-edge.sh</string>
 			<key>Title</key>
-			<string>Open in Microsoft Edge</string>
+			<string>Open in Edge</string>
 		</dict>
 	</array>
 	<key>Apps</key>
@@ -39,6 +39,6 @@
 	<key>Extension Identifier</key>
 	<string>com.nil.extension.open-in-edge</string>
 	<key>Extension Name</key>
-	<string>Open in Microsoft Edge</string>
+	<string>Open in Edge</string>
 </dict>
 </plist>
